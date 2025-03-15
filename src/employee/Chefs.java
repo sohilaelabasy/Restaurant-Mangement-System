@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Chefs {
     String name;
-    String []qualifications;
-    double salary;
+    private String []qualifications;
+    private double salary;
 
     Chefs(String name , String []qualifications,double salary){
         this.name=name;

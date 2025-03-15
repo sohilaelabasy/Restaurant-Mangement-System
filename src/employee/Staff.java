@@ -2,7 +2,7 @@ package employee;
 
 public class Staff {
     String name;
-    double salary;
+    private double salary;
     int staffId;
 
     Staff(String name, double salary, int staffId) {
