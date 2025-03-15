@@ -5,15 +5,20 @@ public class Staff {
     private double salary;
     int staffId;
 
-    Staff(String name, double salary, int staffId) {
+   public Staff(String name, double salary, int staffId) {
         this.name = name;
         this.salary = salary;
         this.staffId = staffId;
 
     }
 
-    public void print() {
-        System.out.println("name is: " + name + "\nsalary is:" + salary + "\nstaffId is:" + staffId);
-        System.out.println("------------");
-    }
+    public String getName() {return name;}
+    public void setName(String name) {this.name = name;}
+
+    public double getSalary(){return salary;}
+    public void setSalary(double salary){this.salary=salary;}
+
+    public int getStaffId(){return staffId;}
+    public void setStaffId(int staffId){this.staffId=staffId;}
+
 }

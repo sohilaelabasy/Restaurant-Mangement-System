@@ -1,13 +1,14 @@
 public class Menu {
     String title;
     double price ;
-    Menu(String title,double price){
+   public Menu(String title,double price){
         this.title=title;
         this.price=price;
     }
-    public void print(){
-        System.out.println("title is: "+ title+"\nprice is:"+ price);
-        System.out.println("***********");
-    }
+    public String getTitle(){return title ;}
+    public void setTitle(String title){this.title=title;}
+
+    public double getPrice(){return price;};
+   public void setPrice(double price){this.price=price;}
 }
 

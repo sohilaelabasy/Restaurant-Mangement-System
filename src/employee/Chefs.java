@@ -7,15 +7,18 @@ public class Chefs {
     private String []qualifications;
     private double salary;
 
-    Chefs(String name , String []qualifications,double salary){
+   public Chefs(String name , String []qualifications,double salary){
         this.name=name;
         this.qualifications=qualifications;
         this.salary=salary;
     }
 
-    public void print(){
-        System.out.println("name is: "+ name+"\nsalary is:"+ salary+"\nqualifications are:");
-        System.out.println(Arrays.toString(qualifications));
-        System.out.println("&&&&&&&&&&&");
-    }
+    public String getName(){return name;}
+    public void setName(String name){this.name=name;}
+
+    public String[] getQualifications(){return qualifications;}
+    public void setQualifications(String []qualifications){this.qualifications=qualifications;}
+
+    public double getSalary(){return salary;}
+    public void setSalary(double salary){this.salary=salary;}
 }
