@@ -1,4 +1,4 @@
-package employee;
+import java.util.Arrays;
 
 public class Chefs {
     String name;
@@ -6,7 +6,7 @@ public class Chefs {
     double salary;
     public void print(){
         System.out.println("name is: "+ name+"\nsalary is:"+ salary+"\nqualifications are:");
-        System.out.println(qualifications);
+        System.out.println(Arrays.toString(qualifications));
         System.out.println("&&&&&&&&&&&");
     }
 }

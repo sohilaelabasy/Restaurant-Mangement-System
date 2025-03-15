@@ -1,5 +1,3 @@
-package employee;
-
 public class Staff {
     String name;
     double salary;
