@@ -30,10 +30,6 @@ Represents a menu item with the following attributes:
 - title: Title of the menu item
 - price: Price of the menu item
 
-## Requirements
-
-- Java Development Kit (JDK) 8 or higher
-
-##Getting started
+## Getting started
 
 Clone the repository: git clone https://github.com/sohilaelabasy/Restaurant-Mangement-System.git
